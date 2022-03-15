@@ -11,4 +11,15 @@ body
     animation: pulse 5s infinite;
   }
   
- 
+  h2
+  {width: 150px;
+  height: 30px;
+  background-color: rgb(0, 140, 255);
+  animation-name: The-Resort;
+  animation-duration: 4s;
+  }
+
+  @keyframes The-Resort {
+    from {background-color:rgb(0, 140, 255);}
+    to {background-color: yellow;}
+  }
